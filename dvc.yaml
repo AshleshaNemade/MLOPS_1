@@ -1,0 +1,6 @@
+stages:
+  cab:
+    cmd: python cab.py
+    deps:
+    - cab.csv
+    - cab.py
