@@ -1,0 +1,13 @@
+schema: '2.0'
+stages:
+  cab:
+    cmd: python cab.py
+    deps:
+    - path: cab.csv
+      hash: md5
+      md5: 9fb1c86268acf4f5025e8078cb1282ca
+      size: 23458139
+    - path: cab.py
+      hash: md5
+      md5: ba56fa55c22db0dab8f2ca4542c97c58
+      size: 538
